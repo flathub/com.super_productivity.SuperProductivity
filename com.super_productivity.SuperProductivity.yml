@@ -39,6 +39,9 @@ modules:
       - install -Dm644 usr/share/applications/superproductivity.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - desktop-file-edit --set-key=Exec --set-value='run.sh %U' ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
 
+      # Patch desktop filename in built-in package.json
+      - patch-desktop-filename ${FLATPAK_DEST}/superproductivity/resources/app.asar
+
       # Install icons
       - mkdir -p ${FLATPAK_DEST}/share/icons
       - mv "usr/share/icons/hicolor" ${FLATPAK_DEST}/share/icons/
