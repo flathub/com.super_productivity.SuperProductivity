@@ -10,6 +10,10 @@
   <url type="donation">https://github.com/sponsors/johannesjo</url>
   <launchable type="desktop-id">com.super_productivity.SuperProductivity.desktop</launchable>
   <icon type="stock">com.super_productivity.SuperProductivity</icon>
+  <branding>
+    <color type="primary" scheme_preference="light">#99c1f1</color>
+    <color type="primary" scheme_preference="dark">#0d47a1</color>
+  </branding>
   <categories>
     <category>Office</category>
     <category>ProjectManagement</category>
