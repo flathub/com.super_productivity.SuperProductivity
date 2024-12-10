@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>com.super_productivity.SuperProductivity</id>
   <name>Super Productivity</name>
-  <summary>Advanced to-do list app with timeboxing, time tracking, and third-party integration</summary>
+  <summary>Advanced to-do list</summary>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <url type="homepage">https://super-productivity.com/</url>
