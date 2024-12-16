@@ -62,7 +62,7 @@ modules:
         x-checker-data:
           type: json
           url: https://api.github.com/repos/johannesjo/super-productivity/releases/latest
-          tag-query: .tag-name
+          tag-query: .tag_name
           timestamp-query: .published_at
           version-query: .name
           url-query: '.assets[] | select(.name == "superProductivity-amd64.deb") | .browser_download_url'
