@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>com.super_productivity.SuperProductivity</id>
   <name>Super Productivity</name>
@@ -21,7 +21,7 @@
   <developer id="com.super_productivity">
     <name>Johannes Millan</name>
   </developer>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <description>
     <ul>
       <li>Keep organized and focused! Plan and categorize your tasks using sub-tasks, projects and tags and color code them as needed.</li>
@@ -52,6 +52,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="11.0.0" date="2024-12-16">
+      <description></description>
+    </release>
     <release version="10.2.3" date="2024-11-29"/>
   </releases>
 </component>

@@ -57,15 +57,16 @@ modules:
       - type: file
         only-arches: [x86_64]
         dest-filename: super-productivity.deb
-        url: https://github.com/johannesjo/super-productivity/releases/download/v10.2.3/superProductivity-amd64.deb
-        sha256: acc555ec639917982b1f80c4b1855c8fc5fe9231edf4eb9f60a44c087b34c65d
+        url: https://github.com/johannesjo/super-productivity/releases/download/v11.0.0/superProductivity-amd64.deb
+        sha256: 75176972883be4696defb7603adb09e75aa07dd2b3e306dba2040f5e4faa490c
         x-checker-data:
           type: json
           url: https://api.github.com/repos/johannesjo/super-productivity/releases/latest
           tag-query: .tag_name
           timestamp-query: .published_at
           version-query: .name
-          url-query: '.assets[] | select(.name == "superProductivity-amd64.deb") | .browser_download_url'
+          url-query: .assets[] | select(.name == "superProductivity-amd64.deb") |
+            .browser_download_url
       - type: file
         path: com.super_productivity.SuperProductivity.metainfo.xml
       # Wrapper to launch the app
