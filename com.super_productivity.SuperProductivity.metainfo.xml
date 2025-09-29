@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>com.super_productivity.SuperProductivity</id>
   <name>Super Productivity</name>
-  <summary>Advanced to-do list</summary>
+  <summary>To-do list & time tracker</summary>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <url type="homepage">https://super-productivity.com/</url>
@@ -23,19 +23,26 @@
   </developer>
   <content_rating type="oars-1.1"/>
   <description>
+    <p>
+      Super Productivity is a to-do list and time tracking app that helps developers and professionals stay organized and focused. It combines timeboxing, Pomodoro, and Flowtime techniques with seamless integrations of other popular tools.
+    </p>
+
+    <p><b>Key Features</b></p>
     <ul>
-      <li>Keep organized and focused! Plan and categorize your tasks using sub-tasks, projects and tags and color code them as needed.</li>
-      <li>Use timeboxing and track your time. Create time sheets and work summaries in a breeze to easily export them to your company's time tracking system.</li>
-      <li>A break reminder reminds you when it's time to step away.</li>
-      <li>The anti-procrastination feature helps you gain perspective when you really need to.</li>
-      <li>Need some extra focus? A Pomodoro timer is also always at hand.</li>
-      <li>Collect personal metrics to see which of your work routines need adjustments.</li>
-      <li>Integrate with Jira, GitHub, GitLab, Gitea and OpenProject. Auto import tasks assigned to you, plan the details locally, automatically create work logs, and get notified immediately, when something changes.</li>
-      <li>Back up and synchronize your data across multiple devices with Dropbox and WebDAV support</li>
-      <li>Attach context information to tasks and projects. Create notes, attach files or create project-level bookmarks for links, files, and even commands.</li>
-      <li>Super Productivity respects your privacy and does NOT collect any data and there are no user accounts or registration. You decide where you store your data!</li>
-      <li>It's free and open source and always will be.</li>
+      <li>Task management with to-do lists, projects and tags</li>
+      <li>Timeboxing, Pomodoro and Flowtime support</li>
+      <li>Built-in time tracking with detailed reports</li>
+      <li>Integrations with Jira, GitHub, GitLab, Gitea and OpenProject</li>
+      <li>Calendar sync to manage tasks and events in one place</li>
+      <li>Data backup and synchronization via WebDAV and Dropbox</li>
+      <li>Attach notes, files, and bookmarks to tasks and projects</li>
+      <li>Customizable with a plug-in system</li>
+      <li>Open source and privacy-friendly: no sign-up, no data collection</li>
     </ul>
+
+    <p>
+      Super Productivity is free and open source software, trusted by thousands of developers worldwide.
+    </p>
   </description>
   <screenshots>
     <screenshot type="default">
