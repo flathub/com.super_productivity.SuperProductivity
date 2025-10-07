@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>com.super_productivity.SuperProductivity</id>
   <name>Super Productivity</name>
-  <summary>To-do list & time tracker</summary>
+  <summary>To-do list and time tracker</summary>
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <url type="homepage">https://super-productivity.com/</url>
