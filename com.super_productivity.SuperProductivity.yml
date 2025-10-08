@@ -53,6 +53,11 @@ modules:
 
       # Install metadata
       - install -Dm644 com.super_productivity.SuperProductivity.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo/
+      # Install screenshots for AppStream catalogue
+      - install -Dm644 standard-dark.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/standard-dark.png
+      - install -Dm644 boards.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/boards.png
+      - install -Dm644 planner-dark.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/planner-dark.png
+      - install -Dm644 schedule.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/schedule.png
     sources:
       - type: file
         only-arches: [x86_64]
@@ -69,6 +74,14 @@ modules:
             .browser_download_url
       - type: file
         path: com.super_productivity.SuperProductivity.metainfo.xml
+      - type: file
+        path: standard-dark.png
+      - type: file
+        path: boards.png
+      - type: file
+        path: planner-dark.png
+      - type: file
+        path: schedule.png
       # Wrapper to launch the app
       - type: script
         dest-filename: run.sh
