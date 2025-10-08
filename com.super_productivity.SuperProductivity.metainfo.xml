@@ -46,16 +46,20 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image>https://github.com/flathub/com.super_productivity.SuperProductivity/blob/bca5210e8b1bffe7b9a4199af234588a231377ae/screenshot-today.png?raw=true</image>
-      <caption>An overview of today's tasks, including time estimates and progress tracking</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/master/standard-dark.png</image>
+      <caption>Plan the day with a focused overview of upcoming tasks and tracked time</caption>
     </screenshot>
     <screenshot>
-      <image>https://github.com/flathub/com.super_productivity.SuperProductivity/blob/bca5210e8b1bffe7b9a4199af234588a231377ae/screenshot-calendar.png?raw=true</image>
-      <caption>A calendar view of tasks, including integration with external calendar events</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/master/boards.png</image>
+      <caption>Organize work in customizable drag-and-drop Kanban board tailored to each project</caption>
     </screenshot>
     <screenshot>
-      <image>https://github.com/flathub/com.super_productivity.SuperProductivity/blob/bca5210e8b1bffe7b9a4199af234588a231377ae/screenshot-worklog.png?raw=true</image>
-      <caption>Worklog view, showing a summary of tasks broken down by year, month, week, and day</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/master/planner-dark.png</image>
+      <caption>Plan tasks and events over time</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/master/schedule.png</image>
+      <caption>Integrate your calendar and see how your planning would work out over time</caption>
     </screenshot>
   </screenshots>
   <releases>
