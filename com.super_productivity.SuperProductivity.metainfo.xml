@@ -47,19 +47,19 @@
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/master/standard-dark.png</image>
-      <caption>Plan the day with a focused overview of upcoming tasks and tracked time</caption>
+      <caption>Plan your day with a focused overview of upcoming tasks and tracked time</caption>
     </screenshot>
     <screenshot>
       <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/master/boards.png</image>
-      <caption>Organize work in customizable drag-and-drop Kanban board tailored to each project</caption>
+      <caption>Organize work in a customizable drag-and-drop Kanban board tailored to each project</caption>
     </screenshot>
     <screenshot>
       <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/master/planner-dark.png</image>
-      <caption>Plan tasks and events over time</caption>
+      <caption>Map tasks and events across the week with a visual planner timeline</caption>
     </screenshot>
     <screenshot>
       <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/master/schedule.png</image>
-      <caption>Integrate your calendar and see how your planning would work out over time</caption>
+      <caption>Sync external calendars to verify workload and schedule at a glance</caption>
     </screenshot>
   </screenshots>
   <releases>
