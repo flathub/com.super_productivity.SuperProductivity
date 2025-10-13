@@ -23,6 +23,8 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   # Use same mouse cursors as host, to avoid weird cursor sizing under Wayland with mixed DPI
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
+  # Temporarily disable Wayland detection in Electron 38.2+ until we add --socket=wayland
+  - --unset-env=XDG_SESSION_TYPE
 modules:
   - name: super-productivity
     buildsystem: simple
