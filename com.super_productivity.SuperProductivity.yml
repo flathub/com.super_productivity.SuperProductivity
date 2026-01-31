@@ -47,8 +47,9 @@ modules:
       # Install icons
       - mkdir -p ${FLATPAK_DEST}/share/icons
       - mv "usr/share/icons/hicolor" ${FLATPAK_DEST}/share/icons/
-      # Remove too-large icon that flatpak-builder doesn't like
+      # Remove too-large icons that flatpak-builder doesn't like
       - rm -r ${FLATPAK_DEST}/share/icons/hicolor/1024x1024
+      - rm -r ${FLATPAK_DEST}/share/icons/hicolor/1080x1080
 
       # Install app wrapper
       - install -Dm755 run.sh ${FLATPAK_DEST}/bin/
@@ -64,8 +65,8 @@ modules:
       - type: file
         only-arches: [x86_64]
         dest-filename: super-productivity.deb
-        url: https://github.com/super-productivity/super-productivity/releases/download/v17.0.11/superProductivity-amd64.deb
-        sha256: 945153d7df9402742889516d67ce44330e90bd92a98d6e91df06b79872e0f24e
+        url: https://github.com/super-productivity/super-productivity/releases/download/v17.0.12/superProductivity-amd64.deb
+        sha256: c9f27c357fb7e8d4abf27844935aa3e68e8fde008eebfd3e112489e985faf650
         x-checker-data:
           type: json
           url: https://api.github.com/repos/johannesjo/super-productivity/releases/latest
