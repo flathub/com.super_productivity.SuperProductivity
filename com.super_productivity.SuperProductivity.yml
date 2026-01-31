@@ -47,8 +47,9 @@ modules:
       # Install icons
       - mkdir -p ${FLATPAK_DEST}/share/icons
       - mv "usr/share/icons/hicolor" ${FLATPAK_DEST}/share/icons/
-      # Remove too-large icon that flatpak-builder doesn't like
+      # Remove too-large icons that flatpak-builder doesn't like
       - rm -r ${FLATPAK_DEST}/share/icons/hicolor/1024x1024
+      - rm -r ${FLATPAK_DEST}/share/icons/hicolor/1080x1080
 
       # Install app wrapper
       - install -Dm755 run.sh ${FLATPAK_DEST}/bin/
