@@ -6,7 +6,10 @@
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <url type="homepage">https://super-productivity.com/</url>
-  <url type="vcs-browser">https://github.com/johannesjo/super-productivity/</url>
+  <url type="bugtracker">https://github.com/super-productivity/super-productivity/issues</url>
+  <url type="vcs-browser">https://github.com/super-productivity/super-productivity/</url>
+  <url type="contribute">https://github.com/super-productivity/super-productivity/blob/master/CONTRIBUTING.md</url>
+  <url type="help">https://github.com/super-productivity/super-productivity/wiki</url>
   <url type="donation">https://github.com/sponsors/johannesjo</url>
   <launchable type="desktop-id">com.super_productivity.SuperProductivity.desktop</launchable>
   <icon type="stock">com.super_productivity.SuperProductivity</icon>
@@ -18,330 +21,136 @@
     <category>Office</category>
     <category>ProjectManagement</category>
   </categories>
+  <keywords>
+    <keyword>timeboxing</keyword>
+    <keyword>flowtime</keyword>
+    <keyword>gtd</keyword>
+    <keyword>focus</keyword>
+    <keyword>jira</keyword>
+    <keyword>github</keyword>
+    <keyword>gitlab</keyword>
+    <keyword>nextcloud</keyword>
+    <keyword>webdav</keyword>
+    <keyword>obsidian</keyword>
+  </keywords>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
   <developer id="com.super_productivity">
     <name>Johannes Millan</name>
   </developer>
   <content_rating type="oars-1.1"/>
   <description>
     <p>
-      Super Productivity is a to-do list and time tracking app that helps developers and professionals stay organized and focused. It combines timeboxing, Pomodoro, and Flowtime techniques with seamless integrations of other popular tools.
+      Super Productivity is an open-source to-do list and time tracker for developers, freelancers, and anyone managing complex personal workflows. It works fully offline, with no account required.
     </p>
 
-    <p>Key Features</p>
+    <p>Highlights</p>
     <ul>
-      <li>Task management with to-do lists, projects and tags</li>
-      <li>Timeboxing, Pomodoro and Flowtime support</li>
-      <li>Built-in time tracking with detailed reports</li>
-      <li>Integrations with Jira, GitHub, GitLab, Gitea and OpenProject</li>
-      <li>Calendar sync to manage tasks and events in one place</li>
-      <li>Data backup and synchronization via WebDAV and Dropbox</li>
-      <li>Attach notes, files, and bookmarks to tasks and projects</li>
-      <li>Customizable with a plug-in system</li>
-      <li>Open source and privacy-friendly: no sign-up, no data collection</li>
+      <li>Drag-and-drop daily planner, weekly schedule, and Kanban boards</li>
+      <li>Built-in Pomodoro, timeboxing, and Flowtime modes with one-click time tracking and reports</li>
+      <li>Integrations with Jira, GitHub, GitLab, Gitea, Redmine, OpenProject, and Google Calendar</li>
+      <li>Optional sync via Nextcloud, WebDAV, Dropbox, or Super Sync; runs fully offline by default</li>
+      <li>Automations: rule-based triggers that auto-tag, auto-move, or auto-start tracking</li>
+      <li>Deadlines: sort, group, and filter tasks by deadline</li>
+      <li>Procrastination helper with CBT techniques and a structured end-of-day review</li>
+      <li>Plugin system with community plugins for Obsidian, Google Calendar, and more</li>
+      <li>Onboarding presets at first launch: Simple Todo, Time Tracker, or full Productivity Suite</li>
+      <li>Privacy by default: no sign-up, no tracking, no telemetry; MIT-licensed</li>
     </ul>
 
     <p>
-      Super Productivity is free and open source software, trusted by thousands of developers worldwide.
+      Super Productivity has been in active development since 2016 and is supported entirely by community contributions and optional GitHub Sponsorships.
     </p>
   </description>
   <screenshots>
     <screenshot type="default">
-      <image>https://github.com/flathub/com.super_productivity.SuperProductivity/blob/ff94c3ee414cfc50d9f9c484c7d8d63e55948c44/standard-dark.png?raw=true</image>
-      <caption>Plan your day with a focused overview of upcoming tasks and tracked time</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/ff94c3ee414cfc50d9f9c484c7d8d63e55948c44/standard-dark.png</image>
+      <caption>Today view: scheduled tasks, current task, and time tracked</caption>
     </screenshot>
     <screenshot>
-      <image>https://github.com/flathub/com.super_productivity.SuperProductivity/blob/ff94c3ee414cfc50d9f9c484c7d8d63e55948c44/boards.png?raw=true</image>
-      <caption>Organize work in a customizable drag-and-drop Kanban board tailored to each project</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/ff94c3ee414cfc50d9f9c484c7d8d63e55948c44/boards-dark.png</image>
+      <caption>Kanban board with drag-and-drop columns and per-project layouts</caption>
     </screenshot>
     <screenshot>
-      <image>https://github.com/flathub/com.super_productivity.SuperProductivity/blob/ff94c3ee414cfc50d9f9c484c7d8d63e55948c44/planner-dark.png?raw=true</image>
-      <caption>Map tasks and events across the week with a visual planner timeline</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/ff94c3ee414cfc50d9f9c484c7d8d63e55948c44/planner-dark.png</image>
+      <caption>Weekly planner with tasks and calendar events</caption>
     </screenshot>
     <screenshot>
-      <image>https://github.com/flathub/com.super_productivity.SuperProductivity/blob/ff94c3ee414cfc50d9f9c484c7d8d63e55948c44/schedule.png?raw=true</image>
-      <caption>Sync external calendars to verify workload and schedule at a glance</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/ff94c3ee414cfc50d9f9c484c7d8d63e55948c44/schedule-dark.png</image>
+      <caption>Schedule view with synced calendar events and tasks for the day</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/ff94c3ee414cfc50d9f9c484c7d8d63e55948c44/inbox-dark.png</image>
+      <caption>Inbox for quick capture of tasks, notes, and bookmarks</caption>
     </screenshot>
   </screenshots>
   <releases>
-    <release version="v18.3.0" date="2026-04-25">
-      <description></description>
+    <release version="18.3.0" date="2026-04-25">
+      <description>
+        <ul>
+          <li>GitHub provider: optional inclusion of pull requests in issues</li>
+          <li>Focus mode: enlarged timer and reorganized Pomodoro controls</li>
+          <li>Plugin API: new reInitData hook</li>
+          <li>Sync: smoother Dropbox auth on sandboxed Linux</li>
+          <li>Stability and translation improvements</li>
+        </ul>
+      </description>
     </release>
-    <release version="v18.2.8" date="2026-04-22">
-      <description/>
+    <release version="18.2.0" date="2026-04-17">
+      <description>
+        <ul>
+          <li>Boards: tag AND/OR match mode and new sort options</li>
+          <li>Focus mode: pomodoro session counter reset button</li>
+          <li>Android: WebView crash recovery and reliable alarm restoration after updates</li>
+          <li>Sync: copy-URL fallback for Dropbox auth and restored periodic timer for file-based providers</li>
+          <li>Detect legacy v16.x sync format and warn instead of diverging silently</li>
+        </ul>
+      </description>
     </release>
-    <release version="v18.2.7" date="2026-04-21">
-      <description/>
+    <release version="18.1.0" date="2026-03-29">
+      <description>
+        <ul>
+          <li>New CalDAV Calendar plugin with time-blocking support</li>
+          <li>Google Calendar plugin: reschedule, delete, and auto time-blocking</li>
+          <li>Local REST API for desktop automation</li>
+          <li>Conditional plugin config fields (showIf)</li>
+          <li>Better input handling for hybrid touch devices</li>
+        </ul>
+      </description>
     </release>
-    <release version="v18.2.5" date="2026-04-20">
-      <description/>
+    <release version="18.0.0" date="2026-03-26">
+      <description>
+        <ul>
+          <li>Automations: rule-based triggers (auto-tag, auto-move, auto-start tracking)</li>
+          <li>Onboarding presets at first launch: Simple Todo, Time Tracker, or Productivity Suite</li>
+          <li>Deadlines: sort, group, and filter tasks by deadline</li>
+          <li>Zen theme: minimal, calmer UI with transparent backgrounds</li>
+          <li>Mobile parity: swipe gestures, Y-axis-locked drag-and-drop, background sync on Android</li>
+          <li>Clickable URLs in task titles</li>
+          <li>Bundled Google Calendar provider plugin</li>
+        </ul>
+      </description>
     </release>
-    <release version="v18.2.4" date="2026-04-19">
-      <description/>
-    </release>
-    <release version="v18.2.1" date="2026-04-17">
-      <description/>
-    </release>
-    <release version="v18.1.3" date="2026-04-01">
-      <description/>
-    </release>
-    <release version="v18.1.0" date="2026-03-29">
-      <description/>
-    </release>
-    <release version="v18.0.0" date="2026-03-26">
-      <description/>
-    </release>
-    <release version="v17.5.2" date="2026-03-19">
-      <description/>
-    </release>
-    <release version="v17.4.1" date="2026-03-13">
-      <description/>
-    </release>
-    <release version="v17.3.0" date="2026-03-07">
-      <description/>
-    </release>
-    <release version="v17.2.4" date="2026-03-01">
-      <description/>
-    </release>
-    <release version="v17.2.1" date="2026-02-21">
-      <description/>
-    </release>
-    <release version="v17.1.8" date="2026-02-15">
-      <description/>
-    </release>
-    <release version="17.1.7" date="2026-02-13">
-      <description/>
-    </release>
-    <release version="17.1.6" date="2026-02-09">
-      <description/>
-    </release>
-    <release version="17.1.5" date="2026-02-08">
-      <description/>
-    </release>
-    <release version="17.1.3" date="2026-02-06">
-      <description/>
-    </release>
-    <release version="17.1.2" date="2026-02-05">
-      <description/>
-    </release>
-    <release version="17.1.0" date="2026-02-04">
-      <description/>
-    </release>
-    <release version="17.0.12" date="2026-01-30">
-      <description/>
-    </release>
-    <release version="17.0.11" date="2026-01-29">
-      <description/>
-    </release>
-    <release version="17.0.9" date="2026-01-28">
-      <description/>
-    </release>
-    <release version="17.0.6" date="2026-01-27">
-      <description/>
-    </release>
-    <release version="17.0.5" date="2026-01-26">
-      <description/>
-    </release>
-    <release version="17.0.2" date="2026-01-25">
-      <description/>
-    </release>
-    <release version="17.0.1" date="2026-01-24">
-      <description/>
-    </release>
-    <release version="16.9.4" date="2026-01-10">
-      <description/>
-    </release>
-    <release version="16.8.3" date="2026-01-04">
-      <description/>
-    </release>
-    <release version="16.8.3" date="2026-01-04">
-      <description/>
-    </release>
-    <release version="16.8.2" date="2026-01-04">
-      <description/>
-    </release>
-    <release version="16.8.1" date="2026-01-02">
-      <description/>
-    </release>
-    <release version="16.7.3" date="2025-12-20">
-      <description/>
-    </release>
-    <release version="16.7.2" date="2025-12-19">
-      <description/>
-    </release>
-    <release version="16.6.1" date="2025-12-14">
-      <description/>
-    </release>
-    <release version="16.6.0" date="2025-12-12">
-      <description/>
-    </release>
-    <release version="16.5.5" date="2025-12-09">
-      <description/>
-    </release>
-    <release version="16.5.4" date="2025-12-07">
-      <description/>
-    </release>
-    <release version="16.5.3" date="2025-12-06">
-      <description/>
-    </release>
-    <release version="16.5.0" date="2025-12-05">
-      <description/>
-    </release>
-    <release version="16.4.3" date="2025-11-30">
-      <description/>
-    </release>
-    <release version="16.4.1" date="2025-11-28">
-      <description/>
-    </release>
-    <release version="16.3.5" date="2025-11-14">
-      <description/>
-    </release>
-    <release version="16.3.0" date="2025-11-07">
-      <description/>
-    </release>
-    <release version="16.2.1" date="2025-11-02">
-      <description/>
-    </release>
-    <release version="16.2.0" date="2025-10-31">
-      <description/>
-    </release>
-    <release version="16.1.0" date="2025-10-24">
-      <description/>
+    <release version="17.0.0" date="2026-01-23">
+      <description>
+        <ul>
+          <li>Sync engine reliability: fixed false "in sync" status and DELETE vs UPDATE conflict races</li>
+          <li>Mobile: swipe-to-close gesture for side navigation</li>
+          <li>Planner: limit initial days to 5 on mobile for faster startup</li>
+          <li>SuperSync: encryption-at-rest tooling and Docker monitoring</li>
+        </ul>
+      </description>
     </release>
     <release version="16.0.0" date="2025-10-17">
-      <description/>
+      <description>
+        <ul>
+          <li>Schedule view: drag-and-drop scheduling rework with new right-panel</li>
+          <li>Schedule: better drop preview, touch support, and panel scaling</li>
+          <li>Schedule: panel auto-refresh every two minutes</li>
+        </ul>
+      </description>
     </release>
-    <release version="15.3.0" date="2025-10-15">
-      <description/>
-    </release>
-    <release version="15.2.16" date="2025-10-13">
-      <description/>
-    </release>
-    <release version="15.2.12" date="2025-10-13">
-      <description/>
-    </release>
-    <release version="15.2.0" date="2025-10-10">
-      <description/>
-    </release>
-    <release version="15.1.1" date="2025-10-08">
-      <description/>
-    </release>
-    <release version="15.1.0" date="2025-10-07">
-      <description/>
-    </release>
-    <release version="15.0.3" date="2025-09-18">
-      <description/>
-    </release>
-    <release version="15.0.1" date="2025-09-14">
-      <description/>
-    </release>
-    <release version="15.0.0" date="2025-09-12">
-      <description/>
-    </release>
-    <release version="14.5.0" date="2025-09-03">
-      <description/>
-    </release>
-    <release version="14.4.1" date="2025-08-30">
-      <description/>
-    </release>
-    <release version="14.4.0" date="2025-08-29">
-      <description/>
-    </release>
-    <release version="14.3.4" date="2025-08-22">
-      <description/>
-    </release>
-    <release version="14.3.3" date="2025-08-15">
-      <description/>
-    </release>
-    <release version="14.3.2" date="2025-08-08">
-      <description/>
-    </release>
-    <release version="14.2.6" date="2025-08-02">
-      <description/>
-    </release>
-    <release version="14.2.5" date="2025-07-29">
-      <description/>
-    </release>
-    <release version="14.2.4" date="2025-07-26">
-      <description/>
-    </release>
-    <release version="14.2.3" date="2025-07-25">
-      <description/>
-    </release>
-    <release version="14.2.2" date="2025-07-20">
-      <description/>
-    </release>
-    <release version="14.2.1" date="2025-07-19">
-      <description/>
-    </release>
-    <release version="14.1.0" date="2025-07-12">
-      <description/>
-    </release>
-    <release version="14.0.5" date="2025-07-06">
-      <description/>
-    </release>
-    <release version="14.0.3" date="2025-07-04">
-      <description/>
-    </release>
-    <release version="14.0.1" date="2025-07-01">
-      <description/>
-    </release>
-    <release version="14.0.0" date="2025-06-29">
-      <description/>
-    </release>
-    <release version="13.1.5" date="2025-06-22">
-      <description/>
-    </release>
-    <release version="13.1.2" date="2025-06-21">
-      <description/>
-    </release>
-    <release version="13.1.0" date="2025-06-17">
-      <description/>
-    </release>
-    <release version="13.0.11" date="2025-06-09">
-      <description/>
-    </release>
-    <release version="13.0.10" date="2025-05-16">
-      <description/>
-    </release>
-    <release version="13.0.9" date="2025-05-16">
-      <description/>
-    </release>
-    <release version="13.0.7" date="2025-05-15">
-      <description/>
-    </release>
-    <release version="13.0.6" date="2025-05-15">
-      <description/>
-    </release>
-    <release version="13.0.4" date="2025-05-14">
-      <description/>
-    </release>
-    <release version="12.0.2" date="2025-04-03">
-      <description/>
-    </release>
-    <release version="12.0.1" date="2025-03-14">
-      <description/>
-    </release>
-    <release version="12.0.0" date="2025-03-07">
-      <description/>
-    </release>
-    <release version="11.1.3" date="2025-02-07">
-      <description/>
-    </release>
-    <release version="11.1.2" date="2025-01-10">
-      <description/>
-    </release>
-    <release version="11.1.1" date="2025-01-05">
-      <description/>
-    </release>
-    <release version="11.0.3" date="2024-12-21">
-      <description/>
-    </release>
-    <release version="11.0.2" date="2024-12-19">
-      <description/>
-    </release>
-    <release version="11.0.0" date="2024-12-16">
-      <description/>
-    </release>
-    <release version="10.2.3" date="2024-11-29"/>
   </releases>
 </component>
