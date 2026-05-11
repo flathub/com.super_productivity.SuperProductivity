@@ -58,10 +58,14 @@ modules:
       # Install metadata
       - install -Dm644 com.super_productivity.SuperProductivity.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo/
       # Install screenshots for AppStream catalogue
-      - install -Dm644 standard-dark.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/standard-dark.png
-      - install -Dm644 boards.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/boards.png
-      - install -Dm644 planner-dark.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/planner-dark.png
-      - install -Dm644 schedule.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/schedule.png
+      - install -Dm644 01-list-with-schedule.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/01-list-with-schedule.png
+      - install -Dm644 02-planner.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/02-planner.png
+      - install -Dm644 03-eisenhower.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/03-eisenhower.png
+      - install -Dm644 04-schedule.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/04-schedule.png
+      - install -Dm644 05-list-with-notes.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/05-list-with-notes.png
+      - install -Dm644 06-focus-mode.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/06-focus-mode.png
+      - install -Dm644 07-project.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/07-project.png
+      - install -Dm644 08-task-detail-panel.png ${FLATPAK_DEST}/share/app-info/screenshots/${FLATPAK_ID}/08-task-detail-panel.png
     sources:
       - type: file
         only-arches: [x86_64]
@@ -79,13 +83,21 @@ modules:
       - type: file
         path: com.super_productivity.SuperProductivity.metainfo.xml
       - type: file
-        path: standard-dark.png
+        path: 01-list-with-schedule.png
       - type: file
-        path: boards.png
+        path: 02-planner.png
       - type: file
-        path: planner-dark.png
+        path: 03-eisenhower.png
       - type: file
-        path: schedule.png
+        path: 04-schedule.png
+      - type: file
+        path: 05-list-with-notes.png
+      - type: file
+        path: 06-focus-mode.png
+      - type: file
+        path: 07-project.png
+      - type: file
+        path: 08-task-detail-panel.png
       # Wrapper to launch the app
       - type: script
         dest-filename: run.sh
