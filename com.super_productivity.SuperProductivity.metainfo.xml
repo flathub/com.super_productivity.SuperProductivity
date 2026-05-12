@@ -99,14 +99,39 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="v18.5.0" date="2026-05-09">
-      <description></description>
+    <release version="18.5.0" date="2026-05-09">
+      <description>
+        <ul>
+          <li>Focus mode rework with a new interaction model</li>
+          <li>Scheduler view: reference calendar and work-log events, plus week-view scaling</li>
+          <li>Calendar: estimated time included in iCal/ICS planner entries</li>
+          <li>Tasks: Ctrl+Enter and Escape shortcuts for quicker task interactions</li>
+          <li>Settings: precise start-of-day time format</li>
+          <li>New AI Assistant community plugin and updated translations</li>
+        </ul>
+      </description>
     </release>
     <release version="18.4.4" date="2026-05-02">
-      <description/>
+      <description>
+        <ul>
+          <li>Sections: drag-drop now places tasks at the correct slot</li>
+          <li>Sections: controls hidden until hover on non-touch devices</li>
+          <li>Tasks: focus moves to the next task after moving one to another project</li>
+          <li>Tasks: long unbreakable words in titles now wrap correctly</li>
+        </ul>
+      </description>
     </release>
     <release version="18.4.3" date="2026-05-01">
-      <description/>
+      <description>
+        <ul>
+          <li>CalDAV: import subtasks</li>
+          <li>Recurring tasks: Nth weekday of month (e.g. first Monday)</li>
+          <li>Task widget: per-instance settings with Mac drag and resize fixes</li>
+          <li>Move-to-project menu shows project icons; tag chips render colored dots</li>
+          <li>Planner: faster auto-scroll while dragging tasks</li>
+          <li>Focus mode and sync stability improvements</li>
+        </ul>
+      </description>
     </release>
     <release version="18.3.0" date="2026-04-25">
       <description>
