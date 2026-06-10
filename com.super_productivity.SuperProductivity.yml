@@ -10,7 +10,14 @@ rename-icon: superproductivity
 finish-args:
   - --device=dri
   - --share=ipc
-  - --socket=x11
+  # Native Wayland on Wayland sessions (Electron 38.2+ auto-selects it from
+  # XDG_SESSION_TYPE). Also required for idle detection on non-GNOME Wayland
+  # compositors (e.g. Niri, Sway): the bundled wayland-idle-helper talks
+  # ext-idle-notify-v1 directly to the compositor and needs the Wayland
+  # socket mounted in the sandbox.
+  - --socket=wayland
+  # X11 rendering on X11-only hosts
+  - --socket=fallback-x11
   - --socket=pulseaudio
   - --share=network
   # Allow local file attachments
@@ -23,8 +30,6 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   # Use same mouse cursors as host, to avoid weird cursor sizing under Wayland with mixed DPI
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
-  # Temporarily disable Wayland detection in Electron 38.2+ until we add --socket=wayland
-  - --unset-env=XDG_SESSION_TYPE
 modules:
   - name: super-productivity
     buildsystem: simple
