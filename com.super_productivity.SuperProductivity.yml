@@ -75,8 +75,8 @@ modules:
       - type: file
         only-arches: [x86_64]
         dest-filename: super-productivity.deb
-        url: https://github.com/super-productivity/super-productivity/releases/download/v18.10.0/superProductivity-amd64.deb
-        sha256: a75d7ee2637007c1808ddefa5af11ae28200cced952c8611980e0ddac05a954d
+        url: https://github.com/super-productivity/super-productivity/releases/download/v18.11.0/superProductivity-amd64.deb
+        sha256: 46bde9a9c0cc99c039834971fa694315990de8866489da86bbefe78ca7352391
         x-checker-data:
           type: json
           url: https://api.github.com/repos/johannesjo/super-productivity/releases/latest
