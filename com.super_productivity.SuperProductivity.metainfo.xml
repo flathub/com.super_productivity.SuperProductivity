@@ -99,8 +99,11 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="v19.1.0" date="2026-09-19">
+    <release version="v19.2.0" date="2026-10-11">
       <description></description>
+    </release>
+    <release version="v19.1.0" date="2026-09-19">
+      <description/>
     </release>
     <release version="v19.0.1" date="2026-09-12">
       <description/>
