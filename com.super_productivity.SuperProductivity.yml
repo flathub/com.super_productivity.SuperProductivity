@@ -6,7 +6,6 @@ base: org.electronjs.Electron2.BaseApp
 base-version: '25.08'
 command: run.sh
 separate-locales: false
-rename-icon: superproductivity
 finish-args:
   - --device=dri
   - --share=ipc
@@ -56,6 +55,11 @@ modules:
       - rm -rf ${FLATPAK_DEST}/share/icons/hicolor/1024x1024
       - rm -rf ${FLATPAK_DEST}/share/icons/hicolor/1080x1080
       - rm -rf ${FLATPAK_DEST}/share/icons/hicolor/2160x2160
+      # Use the Flathub-specific padded icon instead of the full-bleed PNGs
+      # from the .deb (Flathub quality guidelines: canvas fill and detail)
+      - rm -f ${FLATPAK_DEST}/share/icons/hicolor/*/apps/superproductivity.png
+      - install -Dm644 ${FLATPAK_ID}.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
+      - desktop-file-edit --set-icon=${FLATPAK_ID} ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
 
       # Install app wrapper
       - install -Dm755 run.sh ${FLATPAK_DEST}/bin/
@@ -87,6 +91,8 @@ modules:
             .browser_download_url
       - type: file
         path: com.super_productivity.SuperProductivity.metainfo.xml
+      - type: file
+        path: com.super_productivity.SuperProductivity.svg
       - type: file
         path: 01-list-with-schedule.png
       - type: file
