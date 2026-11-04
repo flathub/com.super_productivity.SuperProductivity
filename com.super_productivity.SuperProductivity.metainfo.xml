@@ -100,61 +100,203 @@
   </screenshots>
   <releases>
     <release version="v19.3.1" date="2026-10-25">
-      <description></description>
+      <description>
+        <ul>
+          <li>Collapse project task tables in the daily summary</li>
+          <li>Open downloads directly from the update banner</li>
+          <li>Sync asks before loading remote data that is missing your previous uploads</li>
+          <li>Issue and calendar updates pause while offline and catch up on reconnect</li>
+          <li>Fixed local date formatting</li>
+        </ul>
+      </description>
     </release>
     <release version="v19.3.0" date="2026-10-23">
-      <description/>
+      <description>
+        <ul>
+          <li>Recently deleted: recover tasks you deleted</li>
+          <li>New "won't do" option for tasks</li>
+          <li>End dates for repeating tasks and earlier reminders</li>
+          <li>Plainspace task sharing and community plugin installation</li>
+          <li>Fixes for recurring tasks, sync conflicts, backups and task duplication</li>
+        </ul>
+      </description>
     </release>
     <release version="v19.2.0" date="2026-10-11">
-      <description/>
+      <description>
+        <ul>
+          <li>Task priorities</li>
+          <li>Search for projects and tags, and drag several tasks at once</li>
+          <li>Undo for unscheduling and TickTick CSV import</li>
+          <li>Fixed double-counted or lost tracking time and background Pomodoro tracking</li>
+        </ul>
+      </description>
     </release>
     <release version="v19.1.0" date="2026-09-19">
-      <description/>
+      <description>
+        <ul>
+          <li>Keyboard navigation, shortcuts and multi-select for tasks</li>
+          <li>Support for multiple Google Calendar accounts</li>
+          <li>Escape now unfocuses the focused task</li>
+          <li>Archived recurring tasks are restored for their next occurrence</li>
+          <li>Window size is restored correctly after maximizing</li>
+        </ul>
+      </description>
     </release>
     <release version="v19.0.1" date="2026-09-12">
-      <description/>
+      <description>
+        <ul>
+          <li>Notes now edit live in Markdown, without switching between edit and preview</li>
+          <li>Select multiple tasks for bulk actions, duplicate tasks, and copy tasks as Markdown checklists</li>
+          <li>Rename projects, tags and folders by double-click or from the context menu</li>
+          <li>Local recovery points and an on-device backup list protect against data loss</li>
+          <li>User Profiles were removed</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.21.2" date="2026-08-31">
-      <description/>
+      <description>
+        <ul>
+          <li>Touch swipes no longer move or resize schedule events</li>
+          <li>Fixed overdue repeating-task cleanup when reminders are present</li>
+          <li>Improved legacy data migration and sync reliability</li>
+          <li>Updated Turkish translations</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.21.1" date="2026-08-29">
-      <description/>
+      <description>
+        <ul>
+          <li>Full worklog export</li>
+          <li>Manage connected SuperSync devices</li>
+          <li>Richer previews for recurring tasks</li>
+          <li>Opt-in live tracking presence for SuperSync</li>
+          <li>Fixes for task and section ordering, schedule layout and narrow task rows</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.19.0" date="2026-08-07">
-      <description/>
+      <description>
+        <ul>
+          <li>Search the global settings and open the shortcut guide with "?"</li>
+          <li>Interval recurrences such as "@every 2 weeks"</li>
+          <li>Create or complete tasks through URL actions</li>
+          <li>Crash-safe project note drafts and stronger encrypted-sync safeguards</li>
+          <li>Deleted calendar events no longer reappear</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.16.0" date="2026-07-25">
-      <description/>
+      <description>
+        <ul>
+          <li>Recurring task settings are now part of the schedule dialog</li>
+          <li>Add-task short syntax is highlighted as you type</li>
+          <li>Existing tasks appear in tagged board columns</li>
+          <li>Archived tasks restore to Today, and recurring presets keep their notes</li>
+          <li>Improved sync recovery and WebDAV and Nextcloud compatibility</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.15.1" date="2026-07-17">
-      <description/>
+      <description>
+        <ul>
+          <li>Single-day view in the Schedule tab</li>
+          <li>Task counts for custom sections</li>
+          <li>Sync fixes that prevent data loss when merging changes</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.14.0" date="2026-07-10">
-      <description/>
+      <description>
+        <ul>
+          <li>Import Todoist data from the Import/Export launcher</li>
+          <li>Create tasks by dropping links or EML files into the app</li>
+          <li>Redesigned add-task bar with better notes, toggles and accessibility</li>
+          <li>New completed-task sorting and nesting options</li>
+          <li>More reliable encrypted file sync with fewer false conflict dialogs</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.13.1" date="2026-07-02">
-      <description/>
+      <description>
+        <ul>
+          <li>Global wallpapers with per-context overrides</li>
+          <li>Create tasks in Plainspace-backed projects</li>
+          <li>Clearer overdue tasks, time conflicts and Later Today start times</li>
+          <li>Improved reminders, Focus Mode, sync prompts and ISO 8601 dates</li>
+          <li>Fixes for scheduling, subtasks, Nextcloud setup and large-data restores</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.12.0" date="2026-06-20">
-      <description/>
+      <description>
+        <ul>
+          <li>Focus Mode shows session completion and sends countdown notifications</li>
+          <li>Plainspace shared-project integration and Vikunja discovery through CalDAV</li>
+          <li>Azure DevOps and Trello providers are now plugins</li>
+          <li>Fixes for task ordering, Flowtime settings, Linux display issues and Nextcloud errors</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.11.0" date="2026-06-19">
-      <description/>
+      <description>
+        <ul>
+          <li>Add notes from the add-task bar</li>
+          <li>New Plainspace theme</li>
+          <li>Project and tag menus in tree order</li>
+          <li>Focus Mode enabled in the Time Tracker onboarding preset</li>
+          <li>More reliable sync and backups and persistent fullscreen note edits</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.10.0" date="2026-06-12">
-      <description/>
+      <description>
+        <ul>
+          <li>Redesigned Focus Mode and idle dialog</li>
+          <li>Search includes note content and can filter completed tasks</li>
+          <li>Fixed overlapping same-time tasks in the calendar and schedule</li>
+          <li>Security, sync, reminder, backup and performance fixes</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.9.1" date="2026-06-05">
-      <description/>
+      <description>
+        <ul>
+          <li>Quick History and Worklog unified into one History view</li>
+          <li>Parent folder context for projects and tags</li>
+          <li>Fixes for custom weekday repeats, project icon colors and regional date formats</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.8.0" date="2026-05-30">
-      <description/>
+      <description>
+        <ul>
+          <li>OneDrive sync</li>
+          <li>Start a break directly from break reminders</li>
+          <li>Better attachment URL handling</li>
+          <li>Fixes for recurring task edge cases and malformed schedule times</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.7.0" date="2026-05-23">
-      <description/>
+      <description>
+        <ul>
+          <li>Tasks due today can be added to Today automatically</li>
+          <li>Ctrl+C copies the focused task title</li>
+          <li>Focus Mode can auto-start breaks</li>
+          <li>Shortcut for compact and full sidebar mode</li>
+          <li>Fixes for SuperSync reconnects, Nextcloud login names, backups and calendar imports</li>
+        </ul>
+      </description>
     </release>
     <release version="v18.6.0" date="2026-05-16">
-      <description/>
+      <description>
+        <ul>
+          <li>Scheduling warnings for overlaps and tasks outside work hours</li>
+          <li>Repeat-after-completion tasks and configurable Flowtime breaks</li>
+          <li>Background image picker and iCal include and exclude filters</li>
+          <li>Improved SuperSync and WebDAV reliability</li>
+        </ul>
+      </description>
     </release>
     <release version="18.5.0" date="2026-05-09">
       <description>
