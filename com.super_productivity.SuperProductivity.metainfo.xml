@@ -66,36 +66,36 @@
   </description>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/d511d656aee393030b22cf0db71a604b22762884/01-list-with-schedule.png</image>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/01-list-with-schedule.png</image>
       <caption>Today view with scheduled tasks and current work</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/d511d656aee393030b22cf0db71a604b22762884/02-planner.png</image>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/02-planner.png</image>
       <caption>Weekly planner for arranging tasks across upcoming days</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/d511d656aee393030b22cf0db71a604b22762884/03-eisenhower.png</image>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/03-eisenhower.png</image>
       <caption>Eisenhower matrix for prioritizing urgent and important work</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/d511d656aee393030b22cf0db71a604b22762884/04-schedule.png</image>
-      <caption>Schedule view with synced calendar events and tasks for the day</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/04-schedule.png</image>
+      <caption>Weekly schedule with tasks placed on the calendar</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/d511d656aee393030b22cf0db71a604b22762884/05-list-with-notes.png</image>
-      <caption>Task list with notes, bookmarks, and project context</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/05-list-with-notes.png</image>
+      <caption>Project tasks next to the notes panel</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/d511d656aee393030b22cf0db71a604b22762884/06-focus-mode.png</image>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/06-focus-mode.png</image>
       <caption>Focus mode with timer, current task, and Pomodoro controls</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/d511d656aee393030b22cf0db71a604b22762884/07-project.png</image>
-      <caption>Project view with task lists and project progress</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/07-project.png</image>
+      <caption>Project view with tasks and subtasks</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/d511d656aee393030b22cf0db71a604b22762884/08-task-detail-panel.png</image>
-      <caption>Task detail panel with estimates, notes, reminders, and settings</caption>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/08-task-detail-panel.png</image>
+      <caption>Task details with subtasks, planned date, note and tags</caption>
     </screenshot>
   </screenshots>
   <releases>
