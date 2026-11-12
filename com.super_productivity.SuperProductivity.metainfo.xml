@@ -100,7 +100,15 @@
   </screenshots>
   <releases>
     <release version="v20.0.0" date="2026-11-06">
-      <description></description>
+      <description>
+        <ul>
+          <li>Build Smart Lists with multiple tags and pin custom views</li>
+          <li>Keep links, attachments, and deadlines when duplicating tasks</li>
+          <li>Review your week with Friday wrap-ups and export worklogs including archived projects</li>
+          <li>Open New task, Today, or Inbox from desktop launch shortcuts</li>
+          <li>Fixes for recurring tasks, sync conflicts, and file-sync recovery</li>
+        </ul>
+      </description>
     </release>
     <release version="v19.3.1" date="2026-10-25">
       <description>
