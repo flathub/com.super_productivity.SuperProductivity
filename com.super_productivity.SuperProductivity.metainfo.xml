@@ -99,6 +99,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="v20.1.0" date="2026-11-21">
+      <description></description>
+    </release>
     <release version="v20.0.0" date="2026-11-06">
       <description>
         <ul>
